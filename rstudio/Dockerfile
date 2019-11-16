@@ -12,6 +12,7 @@ RUN apt-get update -qq \
     zlib1g-dev \
     qpdf \
     mesa-common-dev \
+    libglu1-mesa-dev \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/ \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
