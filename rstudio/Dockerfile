@@ -11,6 +11,7 @@ RUN apt-get update -qq \
     git \
     zlib1g-dev \
     qpdf \
+    mesa-common-dev
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/ \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
