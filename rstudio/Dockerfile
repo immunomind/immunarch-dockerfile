@@ -19,6 +19,6 @@ RUN apt-get update -qq \
 
 # "heatmap3,ggrepel,reshape2,DBI,factoextra,fpc,circlize,tidyr,MASS,Rtsne,readr,shiny,shinythemes,treemap,igraph,airr,ggseqlogo,UpSetR,stringr,ggalluvial,ggplot2,dplyr,dtplyr,dbplyr,data.table,gridExtra,ggpubr,Rcpp,knitr,roxygen2,testthat,pkgdown,assertthat,sparklyr"
 
-RUN install2.r --deps TRUE --skipinstalled --error heatmap3 ggrepel reshape2 DBI factoextra fpc circlize tidyr MASS Rtsne readr readxl shiny shinythemes treemap igraph airr ggseqlogo UpSetR stringr ggalluvial ggplot2 dplyr dtplyr dbplyr data.table gridExtra ggpubr Rcpp knitr roxygen2 testthat pkgdown assertthat sparklyr
+RUN install2.r --deps TRUE --skipinstalled --error pheatmap ggrepel reshape2 DBI factoextra fpc circlize tidyr MASS Rtsne readr readxl shiny shinythemes treemap igraph airr ggseqlogo UpSetR stringr ggalluvial ggplot2 dplyr dtplyr dbplyr data.table gridExtra ggpubr Rcpp knitr roxygen2 testthat pkgdown assertthat sparklyr
 
 RUN rm -rf /tmp/downloaded_packages/
